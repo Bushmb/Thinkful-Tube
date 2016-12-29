@@ -1,0 +1,53 @@
+body {
+  padding-top: 50px;
+  width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.vid-result h2 {
+	color: green;
+	font-style: bold;
+	/*text-transform: uppercase;*/
+	text-align: center;
+}
+
+.video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.js-search-results {
+	width: 100%;
+}
+
+.vid-result {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.result-count h2 {
+	text-align: center;
+}
+
+#search-form {
+    margin:auto 0;
+    text-align: center;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+iframe {
+	border: 4px solid #000;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}

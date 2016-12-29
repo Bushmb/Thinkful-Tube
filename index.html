@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Thinkful Tube</title>
+</head>
+<body>
+  <header>
+  <img src="thinkfultube.png">
+  </header>
+  <!-- <h1>Search YouTube</h1> -->
+  <div id="search-form">
+    <form action="#" class="js-search-form">
+      <label for="query"></label>
+      <input type="text" class="js-query">
+      <button type="submit">Search</button>
+      <span>Results per Page: </span>
+      <select name="ResultsPerPage" id="resultsPerPage">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+    </form>
+  </div>
+
+  <section class="result-count"></section>
+  <section class="js-search-results">
+    
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
